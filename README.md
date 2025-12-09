@@ -4,7 +4,19 @@ This repository has been established in conjunction with the publication of the 
 
 ### Citation
 ```bibtex
-
+@Article{bdcc9120309,
+AUTHOR = {Papageorgiou, George and Sarlis, Vangelis and Maragoudakis, Manolis and Magnisalis, Ioannis and Tjortjis, Christos},
+TITLE = {Evaluating Faithfulness in Agentic RAG Systems for e-Governance Applications Using LLM-Based Judging Frameworks},
+JOURNAL = {Big Data and Cognitive Computing},
+VOLUME = {9},
+YEAR = {2025},
+NUMBER = {12},
+ARTICLE-NUMBER = {309},
+URL = {https://www.mdpi.com/2504-2289/9/12/309},
+ISSN = {2504-2289},
+ABSTRACT = {As Large Language Models (LLMs) are core components in Retrieval-Augmented Generation (RAG) systems for knowledge-intensive tasks, concerns regarding hallucinations, redundancy, and unverifiable outputs have intensified, particularly in high-stakes domains, such as e-government. This study proposes a modular, multi-pipeline framework for statement-level faithfulness evaluation for characterizing hallucination and redundancy across both simple and agentic RAG pipelines. Using GPT-4.1, Claude Sonnet-4.0, and Gemini 2.5 Pro as LLM-based judges, this study examines how tool-specific attribution within agentic multi-tool architectures influences the interpretability and traceability of the generated content. By using a modular agentic RAG framework combining symbolic (GraphRAG), semantic (embedding), and real-time (web) retrieval, we benchmark hallucination and redundancy patterns, using state-of-the-art LLM judges. The study examines RAG and agent-based pipelines that attribute outputs to distinct tools, in contrast to traditional single-source RAG systems that rely on aggregated retrieval. Using e-government data sourced from the European Commission’s Press Corner, our evaluation framework assesses not only the frequency, but also the source-aware detectability of hallucinated content. The findings provide actionable insights into how source granularity and retrieval orchestration impact faithfulness evaluation across different pipeline architectures, while also suggesting new directions for explainability-aware RAG design. The study contributes a reproducible, modular framework for automated faithfulness assessment, with implications for transparency, governance compliance, and trustworthy AI deployment.},
+DOI = {10.3390/bdcc9120309}
+}
 ```
 
 ## Introduction
